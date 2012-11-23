@@ -29,9 +29,9 @@ import gevent.queue
 import gevent.event
 import gevent.local
 import gevent.coros
+import zmq.green as zmq
 
 
-import gevent_zmq as zmq
 from .context import Context
 
 

@@ -30,8 +30,8 @@ import gevent.queue
 import gevent.event
 import gevent.local
 import gevent.coros
+import zmq.green as zmq
 
-import gevent_zmq as zmq
 from .exceptions import TimeoutExpired, RemoteError, LostRemote
 from .channel import ChannelMultiplexer, BufferedChannel
 from .socket import SocketBase
